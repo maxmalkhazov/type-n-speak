@@ -1,0 +1,44 @@
+@import "mixins";
+@import "variables";
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 100%;
+	
+	@include respond(tab-land) {
+		font-size: 87.5%;
+	}
+	
+	@include respond(tab-port) {
+		font-size: 75%;
+	}
+	
+	@include respond(big-desktop) {
+		font-size: 112.5%;
+	}
+}
+
+
+body {
+	box-sizing: border-box;
+	padding: 1.875rem;
+	font-family: 'Roboto', sans-serif;
+	
+	@include respond(tab-port) {
+		padding: 0;
+	}
+}
+
+::selection {
+	background-color: $color-main;
+	color: $color-white;
+}
+
+

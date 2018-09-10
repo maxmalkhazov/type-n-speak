@@ -1,0 +1,9 @@
+.main {
+	grid-area: main;
+	background: coral;
+	
+	&__form {
+		text-align: center;
+		margin: 1.5rem;
+	}
+}

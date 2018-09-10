@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Type-N-Speak</title>
+</head>
+<body>
+	
+	<div class="container">
+		
+		<div class="header">
+			<h1 class="header__title">Type-N-Speak</h1>
+		</div>
+		
+		<div class="left-section">Left</div>
+		
+		<div class="main">
+			<div class="main__form">
+				<div class="form-group">
+					<textarea name="text-input" id="text-input" class="form-control form-control-lg" placeholder="Type to start..."></textarea>
+				</div>
+				<div class="form-group">
+					<label for="rate">Rate</label>
+					<div id="rate-value" class="badge badge-primary float-right">1</div>
+					<input type="range" id="rate" class="custom-range" min="0.5" max="2" value="1" step="0.1">
+				</div>
+				<div class="form-group">
+					<label for="pitch">Pitch</label>
+					<div id="pitch-value" class="badge badge-primary float-right">1</div>
+					<input type="range" id="pitch" class="custom-range" min="0" max="2" value="1" step="0.1">
+				</div>
+				<div class="form-group">
+					<select id="voice-select" class="form-control form-control-lg"></select>
+				</div>
+				<button class="btn btn--main">Speak</button>
+			</div>
+		</div>
+		
+		<div class="right-section">Right</div>
+		
+		<div class="footer">Footer</div>
+		
+	</div>
+	
+	
+	
+	<script type="text/javascript" src="/scripts/bundle.js"></script>
+</body>
+</html>

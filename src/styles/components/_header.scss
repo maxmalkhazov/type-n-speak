@@ -1,0 +1,13 @@
+.header {
+	grid-area: header;
+	background: $color-main;
+	height: 8rem;
+	width: 100%;
+	text-align: center;
+	
+	&__title {
+		color: $color-white;
+		padding: 3rem 0;
+		text-transform: uppercase;
+	}
+}

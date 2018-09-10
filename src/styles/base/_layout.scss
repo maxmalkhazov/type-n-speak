@@ -1,0 +1,11 @@
+.container {
+	height: 100%;
+	background-color: #f7f7f7;
+	display: grid;
+	grid-template-rows: 2fr 7fr 1fr;
+	grid-template-columns: 1fr 3fr 1fr;
+	grid-gap: 1rem;
+	grid-template-areas: "header header header"
+	                      "left-section main right-section"
+	                      "footer footer footer";
+}

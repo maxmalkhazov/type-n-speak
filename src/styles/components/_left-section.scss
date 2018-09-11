@@ -1,3 +1,22 @@
 .left-section {
 	grid-area: left-section;
+	
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 1rem;
+	
+	overflow: hidden;
+	white-space: nowrap;
+	
+	&__box-1 {
+		background-color: coral;
+	}
+	
+	&__box-2 {
+		background-color: coral;
+	}
+}
+
+.inner-text {
+	font-size: 2rem;
 }

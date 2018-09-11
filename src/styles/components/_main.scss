@@ -1,9 +1,13 @@
 .main {
 	grid-area: main;
-	background: coral;
+	background: #c57cc5;
 	
 	&__form {
 		text-align: center;
 		margin: 1.5rem;
 	}
+}
+
+.badge-primary {
+	background-color: $color-main;
 }

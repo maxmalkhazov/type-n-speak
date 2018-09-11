@@ -14,27 +14,36 @@
 			<h1 class="header__title">Type-N-Speak</h1>
 		</div>
 		
-		<div class="left-section">Left</div>
+		<div class="left-section">
+			<div class="left-section__box-1">
+				<p class="inner-text" id="textBox1"></p>
+			</div>
+			<div class="left-section__box-2">
+				<p class="inner-text" id="textBox2"></p>
+			</div>
+		</div>
 		
 		<div class="main">
 			<div class="main__form">
-				<div class="form-group">
-					<textarea name="text-input" id="text-input" class="form-control form-control-lg" placeholder="Type to start..."></textarea>
-				</div>
-				<div class="form-group">
-					<label for="rate">Rate</label>
-					<div id="rate-value" class="badge badge-primary float-right">1</div>
-					<input type="range" id="rate" class="custom-range" min="0.5" max="2" value="1" step="0.1">
-				</div>
-				<div class="form-group">
-					<label for="pitch">Pitch</label>
-					<div id="pitch-value" class="badge badge-primary float-right">1</div>
-					<input type="range" id="pitch" class="custom-range" min="0" max="2" value="1" step="0.1">
-				</div>
-				<div class="form-group">
-					<select id="voice-select" class="form-control form-control-lg"></select>
-				</div>
-				<button class="btn btn--main">Speak</button>
+				<form>
+					<div class="form-group">
+						<textarea name="text-input" id="text-input" class="form-control form-control-lg" placeholder="Type to start..."></textarea>
+					</div>
+					<div class="form-group">
+						<label for="rate">Rate</label>
+						<div id="rate-value" class="badge badge-primary float-right">1</div>
+						<input type="range" id="rate" class="custom-range" min="0.5" max="2" value="1" step="0.1">
+					</div>
+					<div class="form-group">
+						<label for="pitch">Pitch</label>
+						<div id="pitch-value" class="badge badge-primary float-right">1</div>
+						<input type="range" id="pitch" class="custom-range" min="0" max="2" value="1" step="0.1">
+					</div>
+					<div class="form-group">
+						<select id="voice-select" class="form-control form-control-lg"></select>
+					</div>
+					<button class="btn btn--main">Speak</button>
+				</form>
 			</div>
 		</div>
 		
